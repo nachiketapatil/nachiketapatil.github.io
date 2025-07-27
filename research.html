@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research | Nachiketa Patil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="research-page">
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">Nachiketa Patil</a>
+            <nav>
+                <ul>
+                    <li class="nav-home"><a href="index.html">Home</a></li>
+                    <li class="nav-research"><a href="research.html">Research</a></li>
+                    <li class="nav-publications"><a href="publications.html">Publications</a></li>
+                    <li class="nav-cv"><a href="path/to/your-cv.pdf" download>CV</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h2>My Research</h2>
+                <div class="research-grid">
+                    <!-- Project 1: CLIP -->
+                    <div class="project-card">
+                        <h3>CLIP Implementation from Scratch</h3>
+                        <p>An implementation of the CLIP model trained on the Flickr30k dataset. As part of a collaborative project for the FML (CS725) course at IIT Bombay, the model learns cross-modal relationships to generate images from captions and vice-versa.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/nachiketapatil/CLIP" target="_blank" class="link">Code <i class="fa-brands fa-github"></i></a>
+                            <a href="https://docs.google.com/presentation/d/1pLBjGjnPWlIFFBw2ThleTIKHX2gpTOmtNSQgSYOytOg/edit?usp=sharing" class="link">Slides <i class="fa-solid fa-person-chalkboard"></i></a>
+                        </div>
+                    </div>
+                    <!-- Project 2: Robust-2D-DPO -->
+                    <div class="project-card">
+                        <h3>Robust 2D Direct Preference Optimization</h3>
+                        <p>This work explores the advantages of 2D-DPO over traditional DPO for aligning LLMs with human preferences. It addresses the model's sensitivity to label noise and proposes a robust version backed by analysis and empirical results.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/nachiketapatil/Robust-2D-DPO" target="_blank" class="link">Code <i class="fa-brands fa-github"></i></a>
+                            <a href="https://arxiv.org/abs/2505.01706" target="_blank" class="link">ArXiv Paper <i class="fa-solid fa-file-pdf"></i></a>
+                        </div>
+                    </div>
+                     <!-- Project 3: Mycroft / Data Selection (NEW) -->
+                    <div class="project-card">
+                        <h3>Efficient Data Selection in Collaborative ML</h3>
+                        <p>This research enhances the Mycroft framework, which uses subset selection algorithms like GradMatch for efficient model training. Key contributions include codebase refactoring for modularity, integrating Vision Transformers (ViTs), and fixing training inconsistencies.</p>
+                        <div class="project-links">
+                            <!-- You can link to your R&D report PDF here -->
+                            <a href="#" class="link">R&D Report <i class="fa-solid fa-file-pdf"></i></a>
+                            <!-- You can link to the Mycroft project repo if available -->
+                            <a href="https://github.com/zainsarwar865/Mycroft-Data-Sharing/tree/dvw" class="link">Code <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Nachiketa Patil. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

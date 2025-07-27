@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nachiketa Patil | MS by Research</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="home-page">
+
+    <!-- Header & Navigation (UPDATED) -->
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">Nachiketa Patil</a>
+            <nav>
+                <ul>
+                    <li class="nav-home"><a href="index.html">Home</a></li>
+                    <li class="nav-research"><a href="research.html">Research</a></li>
+                    <li class="nav-publications"><a href="publications.html">Publications</a></li>
+                    <!-- UPDATED: "Contact" is now "CV" -->
+                    <li class="nav-cv"><a href="Resume.pdf" download>CV</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section class="section hero">
+            <div class="container home-layout">
+                <div class="home-text">
+                    <h1>Hi, I'm Nachiketa Patil</h1>
+                    <p class="subtitle">MS by Research Student at CMInDS, IIT Bombay</p>
+                    <p class="bio">
+                        I work with
+                        <a href="https://arjunbhagoji.github.io/" target="_blank" class="link-tooltip">Prof. Arjun Bhagoji</a>, 
+                        and my research interests are Computer Vision and Adversarial Machine Learning.
+                        <br><br>
+                        Currently, I’m working on a project focused on 
+                        <span class="info-tooltip" data-tooltip="Using additional data from outside sources to improve machine learning models">external data augmentation</span>. 
+                        This involves studying different augmentation techniques and understanding how they can be applied effectively to boost model accuracy and robustness, especially in challenging scenarios.
+                        <br><br>
+                        Apart from research, I also serve as the System Administrator for the <a href="https://www.minds.iitb.ac.in/" target="_blank" class="link-tooltip">CMInDS</a> department, where I manage the HPC cluster, mail servers, and several critical backend services that keep everything running smoothly.
+                        <br><br>
+                        This site is where I share my research, projects, and other interesting things I come across during my journey. Thanks for stopping by!
+                    </p>
+                    <!-- The big blue "Download CV" button has been removed from here -->
+                </div>
+                <div class="home-img">
+                    <img src="photo.jpeg" alt="Nachiketa Patil">
+                </div>
+            </div>
+        </section>
+
+        <!-- NEW: Contact Info Section -->
+        <section id="contact-info" class="section">
+            <div class="container text-center">
+                <h2>Get In Touch</h2>
+                <p>I'm always open to discussing research, new ideas, or potential collaborations.</p>
+                <a href="mailto:npatil@iitb.ac.in" class="email-link">npatil@iitb.ac.in</a>
+                <div class="social-icons">
+                    <a href="https://scholar.google.com/citations?user=CKAwGvkAAAAJ&hl=en" aria-label="Google Scholar" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a>
+                    <a href="https://github.com/nachiketapatil" aria-label="GitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://in.linkedin.com/in/nachiketapatil123" aria-label="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <!-- New Address Tooltip Span (replaces Twitter link) -->
+                    <span class="info-tooltip" data-tooltip="SIC-401, 4th floor, KReSIT Building, IIT Powai, Mumbai - 400076" aria-label="Address">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Nachiketa Patil. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
